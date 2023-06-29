@@ -59,6 +59,7 @@ public class StudentCrud {
 			Statement stmt= con.createStatement();
 			stmt.execute("delete from student where rno = '7'");
 			System.out.println("Student deleted Successfully");
+
 		 System.out.println("Student deleted Successfully And Changed");
 
 		}
